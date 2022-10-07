@@ -2,8 +2,8 @@
     /* position: absolute;
     top: 90px;
     left: 300px; */
-    width: 60%;
-    height: 845px;
+    width: 50%;
+    height: 735px;
     border: 2px solid rgb(177, 177, 177);
     margin: 90px auto;
     /* background-color: rgb(234, 230, 230) ;*/
@@ -23,28 +23,34 @@ h1{
     padding: 12px 16px;
     font-size: 16px;
     cursor: pointer;
-    position: relative;
+    /* position: relative;
     top: 10px;
-    left: 790px;
+    left: 790px; */
+    margin-top: 30px;
+    margin-left: 537px;
+    display: inline-block;
 
   }
+
 .btn:hover {
     background-color: RoyalBlue;
   }  
-h3#newtask{
+/* h3#newtask{
     display: inline;
-    position: relative;
+    /* position: relative;
     top: 10px;
-    left: 800px
-}
+    left: 800px */
+   /* margin-top: 0px;
+    margin-left: 600px;
+} */
 #flex1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .item{
-    height: 300px;
-    width: 300px;
+    height: 230px;
+    width: 230px;
     border: 2px;
     border-radius: 15px;
     background-color: white;
